@@ -14,7 +14,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:background="#d8000000"
+        android:background="#fff"
         android:gravity="center"
         android:layout_height="match_parent">
 
@@ -25,20 +25,21 @@
             android:id="@+id/presentación"
             android:background="@drawable/btn_redondeado_white"
             android:layout_marginLeft="20dp"
-            android:textColor="#403f3f"
+            android:textColor="#fff"
             android:elevation="5dp"
             android:layout_marginBottom="80dp"
             android:layout_marginTop="50dp"
             android:textSize="16dp"
-            android:text="Presentación "/>
+            android:text="Presentación "
+            />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="20dp"
-        android:id="@+id/ir_login"
+        android:id="@+id/iniciar"
         android:background="@drawable/btn_redondeado_white"
         android:layout_marginLeft="20dp"
-        android:textColor="#403f3f"
+        android:textColor="#fff"
         android:elevation="5dp"
         android:layout_marginBottom="30dp"
         android:layout_marginTop="-50dp"
